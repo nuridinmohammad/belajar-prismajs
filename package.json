@@ -2,9 +2,15 @@
   "name": "belajar-prismajs",
   "version": "1.0.0",
   "description": "belajar orm mysql",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
   },
   "repository": {
     "type": "git",
@@ -15,5 +21,15 @@
   "bugs": {
     "url": "https://github.com/nuridinmohammad/belajar-prismajs/issues"
   },
-  "homepage": "https://github.com/nuridinmohammad/belajar-prismajs#readme"
+  "homepage": "https://github.com/nuridinmohammad/belajar-prismajs#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.24.3",
+    "@types/jest": "^29.5.12",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "prisma": "^5.11.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.11.0"
+  }
 }
