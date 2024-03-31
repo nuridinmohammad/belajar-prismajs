@@ -1,0 +1,19 @@
+{
+  "name": "belajar-prismajs",
+  "version": "1.0.0",
+  "description": "belajar orm mysql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nuridinmohammad/belajar-prismajs.git"
+  },
+  "author": "mohammad nuridin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nuridinmohammad/belajar-prismajs/issues"
+  },
+  "homepage": "https://github.com/nuridinmohammad/belajar-prismajs#readme"
+}
